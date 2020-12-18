@@ -1,0 +1,144 @@
+.fondo{
+    background-color: white;
+}
+
+.cabecera {
+    color: rgb(36, 105, 170);
+    margin: 20px 0;
+    font-size: 1.5em;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.cabecera img{
+    position: relative;
+    width: 100%;
+}
+
+.name {
+    font-size: 1.5em;
+}
+
+.menu {
+    background: whitesmoke;
+    text-align:center;
+    position: relative;
+    overflow: hidden; 
+    width: 100%; 
+    margin: 10px auto 10px;
+    border-radius: 8px; 
+}
+.menu a {
+    display: inline-block;
+    width: 15%; 
+    box-sizing: border-box;
+    padding: 10px 5px;
+    color: rgb(36, 105, 170);
+    text-decoration: none;
+}  
+body {
+    max-width: 1024px; /*tamaño máximo del texto*/
+    margin: 0 auto;/*centrar*/
+}
+
+/*Titulo información*/
+h2 {
+    color: rgb(36, 105, 170);
+    border-bottom: 1px solid rgb(36, 105, 170); /*borde inferior (como subrayando todo el ancho)*/
+}
+
+/*Titulos pueblo, puerto*/
+h3 {
+    color: rgb(36, 105, 170);
+}
+.pueblo{
+    margin-left: 1em;
+    float: right; /*Elemento flotado*/ 
+    width: 60%;
+}
+
+.imagenpueblo{
+    position: relative;
+    width: 300px;
+    
+}
+
+.tabla{
+    background-color:rgb(36, 105, 170);
+    position: relative; 
+    
+}
+.tabla tr{
+    background-color: white;
+}
+.tabla td, th{
+    text-align: center;
+    padding: 0.4em;
+}
+footer {
+    background-color: #EEEEEE;
+    margin-top: 3em;
+}
+footer img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+/*PÁGINA CALAS*/
+h1 {
+    color: rgb(36, 105, 170);
+    font-size: 1.5em;
+}
+.princi{
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+}
+.textoscalas{
+    padding: 20px 70px;
+}
+
+/*PÁGINA MIRADORES*/
+.recuadro {
+    background-color: rgb(248, 248, 248);
+    margin: 20px 0;
+    padding: 15px;
+    text-align: center;
+}
+.color{
+    color: rgb(36, 105, 170);
+}
+
+/*PÁGINA FORMULARIO*/
+.reservar{
+    margin: 20px 0;
+    padding: 15px;
+    text-align: center;
+}
+.formulario {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid rgb(36, 105, 170);
+    border-radius: 1em;
+}
+
+/*PÁGINA ACTIVIDADES*/
+
+.buceo{
+    background-color: whitesmoke;
+    padding: 50px;
+    text-align: center;
+}
+
+.imagenFormulario{ /*Posicionamiento absoluto*/
+    position: absolute;
+    width: 7em;
+    top: 22em;
+    left: 50em;
+
+}
+
+

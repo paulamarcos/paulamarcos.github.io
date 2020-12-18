@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javea</title>
+        <link rel = "stylesheet" href="css/estilo.css"> <!-- Enlace con la hoja de estilo.css-->
+    </head>
+    <body class="fondo">
+        <section class="cabecera">
+            <h1>Web de Jávea</h1>
+            <p class="name">Formulario</p>
+        </section>
+        <header>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="calas.html">Calas</a>
+                <a href="miradores.html">Miradores</a>
+                <a href="actividades.html">Actividades</a>
+                <a href="formulario.html">Formulario</a>
+            </nav>
+        </header>
+        <section>
+            <h1 class="reservar">Reservar actividad</h1>
+        </section>
+        <div class="formulario">
+            <form >
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="apellidos">Apellidos: </label>
+                    <input type="text" id="apellidos">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="text" id="email">
+                </div>
+                <br>
+                <div>
+                    <label> Número de personas 
+                        <input type="number" name="personas" min="1" max="10">
+                 </label>
+                </div>
+
+                <div>
+                    <p>Edad de la persona que reserva</p>
+                    <ol>
+                        <li><input type="radio" name="edad" value="18_30"> De 18 a 30</li>
+                        <li><input type="radio" name="edad" value="31_40"> De 31 a 40</li>
+                        <li><input type="radio" name="edad" value="41_50"> De 41 a 50</li>
+                        <li><input type="radio" name="edad" value="mas50"> Más de 50</li>
+                    </ol>
+                </div>
+
+                <div>
+                    <p>Selecciona actividad/es a reservar</p>
+                        <ol>
+                            <li><input type="checkbox" name="actividad" value="Buceo">Buceo</li>
+                            <li><input type="checkbox" name="actividad" value="Motos de agua">Motos de agua</li>
+                            <li><input type="checkbox" name="actividad" value="Escalada">Escalada</li>
+                        </ol>
+                </div>
+
+                <div>
+                    <label for="fecha">Fecha de la reserva:</label>
+                    <input type="date" id="fecha" name="fecha_reserva"
+                    value="2021-01-01"
+                    min="2021-01-01" max="2021-12-31">
+                </div>
+                <br>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit"> <input type="reset" value="Borrar datos formulario">
+                </div>
+                <img src="./img/reserva.png" alt="Pie de página" class="imagenFormulario">
+            </form >
+        </div>
+        <footer>
+            <img src="./img/ayuntamiento.png" alt="Pie de página">
+        </footer>
+    </body>
